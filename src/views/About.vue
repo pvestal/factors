@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Factor Level Descriptions (FLDs)</h1>
+    <p>This app was built to assist with classification determination</p>
   </div>
 </template>

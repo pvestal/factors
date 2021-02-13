@@ -1,0 +1,78 @@
+{
+  "factors": [
+    {
+      "id": 1,
+      "factor" : 1,
+      "level" : "1-5",
+      "points": 750,
+      "series": ["0601", "0603", "0610", "0630", "0631", "0633", "0635", "0638", "0644", "0690", "0696"],
+      "description": [
+      { "header" : "Professional knowledge of, and skill in applying, basic medical or healthcare theories, concepts, principles, and methodology to provide patient care services sufficient to- "},
+      "accomplish developmental assignments utilizing basic techniques, procedures and methods; ",
+      "and carry out limited tasks that involve the use of specialized complicated techniques."
+      ]
+    },
+    {
+      "id": 2,
+      "factor" : 1,
+      "level": "1-6",
+      "points": 950,
+      "series": ["0601", "0603", "0610", "0662"],
+      "description": [
+          { "header" : "Professional knowledge of, and skill in applying, a wide range of concepts, principles, and methods of the patient care field sufficient to perform difficult but well-precedented assignments assessing the condition of patients, providing care, and advising on healthcare needs."}
+      ]
+    },
+    {
+      "id": 3,
+      "factor" : 1,
+      "level": "1-6",
+      "points": 950,
+      "series": ["0630", "0660", "0665"],
+      "description": [
+      { "header" : "Professional knowledge of, and skill in applying, established concepts, principles, and methodology of the allied healthcare field sufficient to perform difficult but conventional recurring assignments."}
+      ]
+    },
+    {
+      "id": 4,
+      "factor" : 1,
+      "level": "1-6",
+      "points": 950,
+      "series": ["0631", "0633", "0635", "0638"],
+      "description": [
+      { "header" : "Professional knowledge of, and skill in applying, the concepts, principles, and methodology of the therapeutic field sufficient to:"},
+      "develop complex treatment plans using established procedures; and ",
+      "modify or adapt difficult but conventional intervention plans according to changing conditions or reactions of patients."
+      ]
+    },
+    {
+      "id": 5,
+      "factor" : 1,
+      "level": "1-6",
+      "points": 950,
+      "series": ["0601", "0644"],
+      "description": [
+      { "header" : "Professional knowledge of, and skill in applying, established concepts, principles, and methodologies of a medical, healthcare or clinical laboratory scientific discipline sufficient to:"},
+      "perform/monitor the full-range of specialized tests and conventional procedures for which there are standard methods and techniques in one or more areas of the clinical laboratory science;",
+      "perform difficult but well-precedented assignments assessing the condition of patients, providing care, and advising on healthcare needs;",
+      "establish quality controls;",
+      "troubleshoot procedures and equipment;",
+      "calculate and correlate test results;",
+      "set up and implement new procedures;",
+      "assess and correlate data; or",
+      "read, understand, manipulate, analyze, interpret, and convey results."
+      ]
+    },
+    {
+      "id": 6,
+      "factor" : 1,
+      "level": "1-6",
+      "points": 950,
+      "series": ["0690", "0696"],
+      "description": [
+          { "header" : "Professional knowledge of, and skill in applying, the concepts, principles, and methodologies of the industrial hygiene or the consumer safety fields to:"},
+          "independently perform routine inspections or portions of large and complex inspections of manufacturing practices; or",
+          "perform assignments related to the identification, evaluation, and control of industrial health hazards."
+          ]
+    }
+  ]
+}
