@@ -1,7 +1,8 @@
 <template>
   <nav class="main-nav">
       <router-link :to="{name: 'Home'}">Factors</router-link>
-      <!-- <router-link :to="{name: 'AddFactor'}">Add Factor</router-link> -->
+      <router-link :to="{name: 'Add Factor'}">Add Factor</router-link>
+      <router-link :to="{name: 'About'}">About</router-link>
   </nav>
 </template>
 

@@ -121,7 +121,29 @@
         "develop complex treatment plans using established procedures; and ",
         "modify or adapt difficult but conventional intervention plans according to changing conditions or reactions of patients."
       ],
-      "illustrations": []
+      "illustrations": [
+        {
+          "series": "0631",
+          "illustration": 1,
+          "body": [
+            "Facilitates a person with paralyzed limb(s) to gain or regain ability to do tasks of daily living. Evaluates perceptual ability using standardized tests and structured assessments such as form boards, pegs, drawings, and tracing; uses techniques for retraining paralyzed limbs and increasing strength and dexterity; uses adaptive self-help techniques for accomplishing daily living tasks such as dressing, self-care, and feeding; suggests home modifications which can be made for handicapped persons such as ramps and grab bars, and aids in selecting the type and fit of wheelchairs and gives instruction regarding transfer techniques and position."
+          ]
+        },
+        {
+          "series": "0631",
+          "illustration": 2,
+          "body": [
+            "Develops intervention plan for an individual who has a chronic condition affecting life activities (e.g., a person on renal dialysis or a diabetic). This would include productive or leisure activities or both while on dialysis; social adjustment due to scheduling and the need to conserve energy; and psychological aspects of changes in lifestyle. The therapist would consider such variables as the person's occupation, leisure activities, and family situation."
+          ]
+        },
+        {
+          "series": "0631",
+          "illustration": 3,
+          "body": [
+            "Facilitates reentry of a person into the community by evaluating ability to: follow written or oral instructions, deal with peers and authority figures, solve problems, concentrate, and/or interact socially. Intervention may include activities such as meal planning, comparative shopping, and management of personal finances. At this level, the therapist is skilled in evaluating individual progress (regression) and modifying the intervention appropriately."
+          ]
+        }
+      ]
     },
     {
       "id": 5,

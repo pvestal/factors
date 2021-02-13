@@ -19,23 +19,28 @@
       </form>
     </div>
     <div v-for="factor in filteredSeries" :key="factor.id" class="factor">
-      <h2>Level: {{ factor.level }} - Points: {{ factor.points }}</h2>
+      <h2>Id: {{factor.id}} - Level: {{ factor.level }} - Points: {{ factor.points }}</h2>
       <p>Series: {{ factor.series }}</p>
       <p v-if="factor.header.length">FLD: {{ factor.header }}</p>
       <ul>
         <li v-for="bullet in factor.bullets" :key="bullet">{{ bullet }}</li>
       </ul>
+      <!-- Only display if illustrations -->
       <div v-if="factor.illustrations.length">
-        <h3 @click="showDetails = !showDetails" class="hyperlink">
+        <!-- Toggle illustrations -->
+        <h3 @click="showIllustrations = !showIllustrations" class="hyperlink">
           illustrations
         </h3>
-        <ul v-if="showDetails">
-          <li v-for="illustration in filteredSeries.illustrations" :key="illustration">
-            {{ illustration }}
-          </li>
-        </ul>
-      </div>
-    </div>
+        <!-- Only display if illustrations -->
+        <div v-if="showIllustrations">
+          <ul>
+            <li v-for="illustration in factors.illustrations" :key="illustration.id">
+              {{ illustration }}
+            </li>
+          </ul>
+        </div>
+      </div><!--End Illustrations Loop-->
+    </div><!--End Factor Loop-->
   </div>
 </template>
 
@@ -45,7 +50,7 @@ export default {
   data() {
     return {
       factors: [],
-      showDetails: false,
+      showIllustrations: false,
       searchValue: '',
       series: '',
       level: ''
